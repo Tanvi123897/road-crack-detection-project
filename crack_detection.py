@@ -1,7 +1,7 @@
 import cv2
 
 # Read image
-img = cv2.imread('road.jpg')
+img = cv2.imread('asphalt-highway.jpg')
 
 # Convert to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
